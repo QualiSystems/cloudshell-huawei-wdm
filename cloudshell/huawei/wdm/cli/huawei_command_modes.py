@@ -16,4 +16,4 @@ class WDMConfigCommandMode(ConfigCommandMode):
     ENTER_COMMAND = "system-view immediately"
 
 
-CommandMode.RELATIONS_DICT = {WDMEnableCommandMode: {WDMConfigCommandMode: {}}}
+CommandMode.RELATIONS_DICT = {EnableCommandMode: {ConfigCommandMode: {}}}
